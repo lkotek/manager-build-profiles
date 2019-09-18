@@ -22,6 +22,11 @@
         <type boot="isoboot/suse-SLES12" image="iso"></type>
         <type boot="oemboot/suse-SLES12" filesystem="ext3" image="oem" installiso="true"></type>
     </preferences>
+	
+    <users group="root">
+	<user password="$1$X4nzuRfs$Cw2KXDXsgUUNpasZZi7I/1" name="root" home="/root" shell="/bin/bash"/>
+    </users>	
+	
     <!--    CUSTOM REPOSITORY -->
     <repository type="rpm-dir">
       <source path="this://repo"/>
