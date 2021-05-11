@@ -72,10 +72,8 @@
         <package name="kernel-firmware"/>
         <package name="kexec-tools"/>
 
-        <!-- uncomment here to enable wireless boot
         <package name="dracut-wireless"/>
         <package name="wpa_supplicant"/>
-        -->
 
         <package name="plymouth"/>
         <package name="plymouth-dracut"/>
